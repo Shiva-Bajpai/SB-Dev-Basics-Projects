@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Hurricane&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    min-height: 100vh;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F9F6;
+}
+#main svg{
+    animation: rotation 9s infinite linear;
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:22px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#nav a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#mainheading{
+    width: 100%;
+    min-height: 90vh;
+    background-color: #F9F9F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#maintextheading{
+    width: 80%;
+    height: 80vh;
+    /* background-color: rgb(226, 45, 45); */
+}
+#maintextheading h1{
+    font-size: 12vw;
+    text-transform: uppercase;
+    font-family: "Gallient";
+    font-weight: 400;
+    line-height:14vw;
+    color: rgb(55,55,54);
+}
+
+#maintextheading #mth1{
+    width: 60vw;
+    /* height: 120px; */
+    margin-left: 65px;
+    margin-top: 8px;
+    letter-spacing: 2px;
+    /* background-color: rgba(122, 221, 0, 0.692); */
+}
+#maintextheading #mthimg1{
+    width: 15vw;
+    /* height: 17vh; */
+    background-color: brown;
+    position: absolute;
+    top: 22vh ;
+    right:10vw;
+}
+#maintextheading #mth2{
+    font-family: 'Roboto', sans-serif;
+    /* margin-top: 12px; */
+    margin-left: -25px;
+    margin-bottom: 15px;
+}
+#maintextheading #mth3{
+    width: 100px;
+    height: 120px;
+    margin-left: 215px;
+    
+}
+
+#maintextheading #mthimg2{
+    width: 15vw;
+    /* height: 17vh; */
+    background-color: brown;
+    margin-bottom: 10vw;
+    position: absolute;
+    top: 69vh ;
+    left:5vw;
+}
+#maintextheading #mainheadingAbout{
+    width: 18vw;
+    height: 100px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    right: 7vw;
+    top: 37vh;
+}
+#maintextheading #mainheadingAbout p{
+    font-family: 'Aeonik';
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 1vw;
+    text-transform: uppercase;
+    color: rgb(55,55,54);
+    
+}
+#maintextheading #mainheadingAbout #and{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    margin-top: 2vw;
+    height: 40px;
+    border-radius: 50%;
+    font-family: 'Aeonik';
+    border: 1px solid rgb(55,55,54);
+
+}
+#maintextheading #and h4{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(55,55,54);
+}
+svg:not(:root) {
+    overflow: visible;
+}
+  
+  svg {
+    position: fixed;
+    z-index: 999;
+    top: 80vh;
+    right: 3vw;
+    height: auto;
+    width: 100px;
+    transform: rotate(360deg);
+}
+#second_heading{
+    width: 100%;
+    height: 90vh;
+    background-color: #F9F9F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home_intro_line{
+    width: 60%;
+    height: 40vh;
+    /* background-color: aquamarine;     */
+}
+#home_intro_line h2{
+    font-family: 'Aeonik';
+    font-size: 2.5vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #363636;
+    line-height: 48px;
+    letter-spacing: -1px;
+    
+}
+#idea{
+    width: 52px;
+    padding: 0px 10px;
+    height: 12px;
+    background-color: #F5FD0B;
+}
+
+#third_heading{
+    width: 100%;
+    height: 87vh;
+    background-color: #F9F9F6;
+    position: relative;
+}
+#third_heading h1{
+    font-size: 13vw;
+    font-family: 'Gallient';
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+#third_heading_title{
+    background-color: transparent;
+    position: absolute;
+    top: 30%;
+    left: 31%;
+}
+
+#fourth{
+    width: 100%;
+    background-color: #F9F9F6;
+    padding: 5vh 10vw;
+    color: #363636;
+}
+
+#fourth>h1{
+    font-family: "Aeonik";
+    font-weight: 100;
+    font-size: 10vw;
+    border-top: 2px solid #363636;
+    border-bottom: 2px solid #363636;
+    padding: 20px 0;
+    padding-left: 30px;
+}
+
+.elems{
+    position: relative;
+    border-top: 2px solid #363636;
+    padding: 4vh 30px;
+    z-index: 4;
+    font-family: "Gallient";
+    text-transform: uppercase;
+}
+
+.elems h1{
+    position: relative;
+    z-index: 3;
+    font-size: 5vw;
+    font-weight: 900;
+    /* mix-blend-mode: difference; */
+}
+
+#fourth .elems:nth-child(2){
+    margin-top: 70px;
+}
+
+#fourth .elems:last-child{
+    border-bottom: 2px solid #fff;
+}
+
+.elems .img{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 10vw;
+    left: 0;
+    height: 27vh;
+    opacity: 0;
+    z-index: 1;
+    will-change: transform;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+.text span{
+    display: inline-block;
+}
+
+.elems img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive  */
+@media screen and (max-width:500px){
+    #mainheading{
+        min-height: 50vh;
+    }
+    #maintextheading{
+        height: 50vh;
+    }
+    #maintextheading #mth1{
+        margin-top: 25vw;
+        margin-left: 10vw;
+    }
+    #maintextheading h1{
+        margin-bottom: 5vw;
+        font-size: 15vw
+    }
+    #maintextheading #mth3{
+        margin-top: 5vw;
+        margin-left: 10vw;
+    }
+    #maintextheading #mthimg1{
+        top: 10vh;
+        width: 35vw;
+    }
+    #maintextheading #mthimg2{
+        margin-left: 3vw;
+        top: 60vh;
+        width: 35vw;
+    }
+    #maintextheading #mainheadingAbout{
+        top: 52vh;
+        right: 23vw;
+    }
+    #maintextheading #mainheadingAbout p{
+        width: 50vw;
+        font-size: 2vw;
+        margin-bottom: 2vh;
+    }
+    #main svg{
+        position: fixed;
+        margin-top: 10vw;
+        margin-right: 10vw;
+    }
+    #home_intro_line h2{
+        font-size: 4vw;
+        line-height: 45px;
+    }
+    #home_intro_line{
+        margin-right: 10vw;
+    }
+
+
+
+
+
+   
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
