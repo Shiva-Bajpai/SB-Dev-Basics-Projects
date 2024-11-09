@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #222;
+	overflow: hidden;
+}
+
+/* Nav start */
+
+nav {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 15vh;
+	padding: 0vw 10vw;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+	backdrop-filter: blur(20px);
+	z-index: 9999;
+}
+
+.left-nav a img {
+	width: 7vw;
+}
+
+.center-nav {
+	display: flex;
+	gap: 2vw;
+}
+
+.center-nav a {
+	color: #fff;
+	font-size: 1.2vw;
+	text-decoration: none;
+	padding: 0.7vw 1.5vw;
+	border-radius: 50px;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+.center-nav a:hover {
+	color: rgb(109, 228, 109);
+	background-color: rgb(27, 53, 27);
+}
+
+.right-nav button {
+	padding: 1vw 2vw;
+	border-radius: 10px;
+	border: none;
+	font-size: 1vw;
+}
+
+.part-1,
+.part-2,
+.part-3 {
+	width: 100%;
+	height: 100vh;
+}
+
+/* Nav end */
+
+/* part-1 start */
+
+.part-1 {
+	display: flex;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	width: 50%;
+	height: 100vh;
+	gap: 5vh;
+	padding-left: 4vw;
+}
+
+.left h1 {
+	font-size: 8vw;
+	color: transparent;
+	-webkit-background-clip: text;
+			background-clip: text;
+	background-image: url(https://media.giphy.com/media/qhepNcb0L83PG/giphy.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	line-height: 15vh;
+	font-family: Hamar Font;
+}
+
+.left p {
+	width: 25vw;
+	color: #fff;
+	font-size: 1.2vw;
+}
+
+.btn {
+	display: flex;
+	gap: 2vw;
+}
+
+.btn button {
+	padding: 1.2vw 2vw;
+	border-radius: 10px;
+	border: none;
+	font-size: 1vw;
+}
+
+.btn button:nth-child(1) {
+	background-color: greenyellow;
+}
+
+.right {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.right video {
+	width: 90%;
+}
+
+.ri-menu-3-line {
+	display: none;
+	color: #fff;
+	font-size: 7vw;
+}
+
+/* Part-1 end */
+
+/* Part-2 start */
+
+.part-2 h1 {
+	color: #fff;
+	font-size: 10vw;
+	font-family: "Roboto", sans-serif;
+	line-height: 24vh;
+}
+
+h1 span {
+	color: transparent;
+	-webkit-text-stroke: 1.5px #fff;
+}
+
+.strip {
+	width: 500%;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+.strip:nth-child(n) {
+	margin-left: 100%;
+}
+
+.strip:nth-child(2n) {
+	margin-left: -100%;
+}
+
+/* Part-2 end */
